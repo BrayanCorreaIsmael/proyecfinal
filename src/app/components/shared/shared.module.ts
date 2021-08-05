@@ -10,6 +10,7 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
+import { MatSelectModule } from '@angular/material/select';
 
 
 // Este modulo sirve para tener nmejor organizado los modulos
@@ -26,7 +27,8 @@ import { MatIconModule } from '@angular/material/icon';
     MatSnackBarModule,
     MatProgressSpinnerModule,
     MatToolbarModule,
-    MatIconModule
+    MatIconModule,
+    MatSelectModule
   ],
   // Aca estamos exportando para q los modulos sean visibles por otros modulos
   exports : [
@@ -37,7 +39,8 @@ import { MatIconModule } from '@angular/material/icon';
     MatSnackBarModule,
     MatProgressSpinnerModule,
     MatToolbarModule,
-    MatIconModule
+    MatIconModule,
+    MatSelectModule
   ]
 })
 export class SharedModule { }
